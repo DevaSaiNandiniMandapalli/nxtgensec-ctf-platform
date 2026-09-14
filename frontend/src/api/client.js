@@ -1,5 +1,4 @@
-const API_BASE_URL = "/api";
-
+const API_BASE_URL = "https://nxtgensec-api.onrender.com/api";
 async function apiRequest(path, options = {}) {
   const token = localStorage.getItem("nxtgensec_token");
 
